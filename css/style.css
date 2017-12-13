@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css?family=Autour+One|Niconne');
+
+/*main*/
+
+body {
+    font-size: 10px!important;
+}
+
+p {
+    text-align: justify;
+    font-size: 2em;
+    line-height: 30px;
+}
+
+.jumbotron {
+    margin: 0!important;
+    border-radius: 0!important;
+}
+
+
+/*navbar*/
+
+.navbar {
+    background-color: #AF7AC5;
+}
+
+.navbar h2 {
+    font-size: 3em !important;
+    color: white;
+}
+
+.navbar .collapse ul li {
+    font-size: 2em !important;
+}
+
+
+/* landing page*/
+
+
+/*image 1*/
+
+#carousel .image_1 {
+    background-image: url('../img/index/index.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#carousel .image_1 h3 {
+    padding-top: 100px;
+    font-size: 9em;
+    font-family: 'Niconne', cursive;
+    color: yellow;
+}
+
+#carousel .image_1 h5 {
+    padding-top: 50px;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Autour One', cursive;
+    color: white;
+}
+
+
+/*image 2*/
+
+#carousel .image_2 {
+    background-image: url('../img/index/carousel_1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#carousel .image_2 h3 {
+    padding-top: 100px;
+    font-size: 9em;
+    font-family: 'Niconne', cursive;
+    color: #CC0099;
+}
+
+#carousel .image_2 h5 {
+    padding-top: 50px;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Autour One', cursive;
+    color: red;
+}
+
+
+/*image 3*/
+
+#carousel .image_3 {
+    background-image: url('../img/index/carousel_2.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#carousel .image_3 h3 {
+    padding-top: 100px;
+    font-size: 9em;
+    font-family: 'Niconne', cursive;
+    color: orangered;
+}
+
+#carousel .image_3 h5 {
+    padding-top: 50px;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Autour One', cursive;
+    color: darkmagenta;
+}
+
+
+/*image 4*/
+
+#carousel .image_4 {
+    background-image: url('../img/index/carousel_3.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#carousel .image_4 h3 {
+    padding-top: 100px;
+    font-size: 9em;
+    font-family: 'Niconne', cursive;
+    color: purple;
+}
+
+#carousel .image_4 h5 {
+    padding-top: 50px;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Autour One', cursive;
+    color: darkorange;
+}
+
+#index .jumbotron {
+    background-color: blue;
+    color: white;
+}
+
+#index h3 {
+    text-align: center;
+}
+
+#index_1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#index_1 h3 {
+    text-align: center;
+}
+
+#index_2 .jumbotron {
+    background-image: url('../img/index/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#index_2 h3 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#index_3 {
+    background-image: url('../img/index/banner1.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#index_3 .card {
+    padding: 10px;
+}
+
+#index_3 img {
+    height: 200px;
+}
+
+#index_3 .index {
+    padding: 40px;
+}
+
+#index_4 .jumbotron {
+    margin: 0;
+    background-image: url('../img/index/index_1.jpg');
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#index_4 h3 {
+    font-size: 6em;
+}
+
+
+/*java*/
+
+#java_landing {
+    background-image: url('../img/bg-img/java.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #FFA500
+}
+
+#java_landing h3 {
+    padding-top: 200px;
+    font-size: 6em;
+}
+
+#java .jumbotron {
+    background-color: red;
+    color: white;
+}
+
+#java {
+    font-weight: bold;
+}
+
+#java h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#java_1 h3 {
+    text-align: center;
+}
+
+#java_1 p {
+    padding: 20px;
+}
+
+#java_1 img {
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+#java_2 img {
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+#java_2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#java_2 ul li {
+    font-size: 2em;
+    padding: 5px;
+}
+
+#java_2 h5 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#java_3 h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#java_3 ul li {
+    font-size: 2em;
+    padding: 5px;
+}
+
+
+/*python*/
+
+#python {
+    background-image: url('../img/java/python.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: purple;
+    font-weight: bold;
+}
+
+#python h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#python p {
+    padding-bottom: 10px;
+}
+
+#python_1 h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#python_1 ul li {
+    font-size: 2em;
+    padding: 5px;
+}
+
+
+/*php*/
+
+#php {
+    background-image: url('../img/java/php.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: sandybrown;
+    font-weight: bold;
+}
+
+#php h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#php p {
+    padding-bottom: 10px;
+}
+
+#php_1 h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#php_1 ul li {
+    font-size: 2em;
+    padding: 5px;
+}
+
+
+/*dotnet*/
+
+#dotnet {
+    background-image: url('../img/java/net.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+#dotnet h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#dotnet p {
+    padding-bottom: 10px;
+}
+
+#dotnet_1 h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#dotnet_1 ul li {
+    font-size: 2em;
+    padding: 5px;
+}
+
+
+/*seo*/
+
+#seo_landing {
+    background-image: url('../img/bg-img/seo.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#seo_landing h3 {
+    padding-top: 200px;
+    font-size: 6em;
+    color: yellow;
+}
+
+#seo_1 {
+    background-image: url('../img/seo/seo.jpg');
+    padding: 20px;
+    color: black;
+    width: 100%;
+}
+
+#seo_1 h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#seo_2 h3 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#seo_2 p {
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+#seo_2 img {
+    height: 125px;
+    margin: 10px;
+}
+
+#seo_3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#seo_3 h3 {
+    padding: 10px;
+}
+
+#seo_3 ul li {
+    font-size: 2em;
+    padding: 5px;
+}
+
+#seo_3 p {
+    padding: 10px;
+}
+
+
+/*web page*/
+
+#web_landing {
+    background-image: url('../img/bg-img/web.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#web_landing h1 {
+    padding-top: 200px;
+    color: white;
+    font-size: 5em;
+}
+
+#web_1 .jumbotron {
+    background-color: #DAA520;
+    color: white;
+}
+
+#web_1 p {
+    font-size: 2em;
+}
+
+#web_1 h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#web_2 h3 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#web_2 p {
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+#web_2 img {
+    height: 125px;
+    margin: 10px;
+}
+
+#web_3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#web_3 img {
+    height: 300px;
+    width: 100%;
+}
+
+#web_3 p {
+    font-size: 2em;
+}
+
+
+/*web-hosting*/
+
+#webhosting .jumbotron {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#webhosting h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#webhosting p {
+    font-size: 2em;
+}
+
+
+/*domain*/
+
+#domain {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#domain h3 {
+    text-align: center;
+}
+
+#domain p {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+#domain ul li {
+    font-size: 2em;
+    padding: 5px;
+}
+
+
+/*contact us*/
+
+#contact_landing {
+    background-image: url('../img/bg-img/contact.jpg');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#contact_landing h1 {
+    padding-top: 200px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h1 {
+    padding: 20px;
+}
+
+#contact p {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*Footer*/
+
+#footer .jumbotron {
+    background-color: slategray;
+    padding-bottom: 0 !important;
+}
+
+#footer .footer-link {
+    font-size: 1.4em;
+}
+
+#footer ul li {
+    list-style: none;
+    font-size: 1.6em;
+    color: rgb(53, 14, 14);
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_1 .col-md-3 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.footer_2 ul li {
+    display: inline;
+}
+
+.footer_2 ul li a {
+    color: yellowgreen !important;
+}
